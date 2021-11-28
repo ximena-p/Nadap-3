@@ -1,0 +1,16 @@
+<div class="block">
+    <h2> {{ carrera }} </h2>
+    <div class="informacion">
+        <app-item *ngFor="let item of items" [item]="item"></app-item>
+    </div>
+
+    <div class="inicial">
+        <div class="boton">
+            <i class="fa-solid fa-download"></i>
+            <div class="iniciar">
+                <h3>Descargar</h3> 
+            </div>
+        </div>
+    </div>
+    
+</div>

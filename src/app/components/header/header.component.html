@@ -1,0 +1,46 @@
+<div>
+    <nav class="navbar">
+        <div><img src="./assets/images/logo-color.png" alt="" class="logo"></div>
+        <button #myButton (click)="clickButton()"  class="toggle">
+             <!-- (click)="clickButton"  -->
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul #myList class="nav">
+            <li >
+                <a (click)="clickButton()" routerLink="/" class="link">
+                    <img class="icon-nav" src="./assets/images/house-solid.svg" alt="">
+                    <img class="icon-nav-orange" src="./assets/images/house-solid-copia.svg" alt="">
+                      Home
+                </a>
+            </li>
+            <li >
+                <a (click)="clickButton()" routerLink="/registro" class="link">
+                    <img class="icon-nav" src="./assets/images/users-solid.svg" alt="">
+                    <img class="icon-nav-orange" src="./assets/images/users-solid-copia.svg" alt="">
+                      Registrarse
+                </a>
+            </li>
+            <li >
+                <a (click)="clickButton()" routerLink="/inicioSecion" class="link">
+                    <img class="icon-nav" src="./assets/images/user-lock-solid.svg" alt="">
+                    <img class="icon-nav-orange" src="./assets/images/user-lock-solid-copia.svg" alt="">
+                       Ingresar
+                </a>
+            </li>
+           <!--  <li><a routerLink="/perfilProfesor">PerfilUsuarioProfe</a></li>
+            <li><a routerLink="/perfilEstudiente">PerfilUsuarioAlumno</a></li>  -->
+        </ul>
+    </nav>
+</div>
+
+<!--<script type="text/javascript" >
+    const menuToggle = document.querySelector('toggle');
+    const nav = document.querySelector('nav');
+
+    menuToggle.addEventListener('click',() => {
+      nav.classList.toggle('navmenu-visible');
+    })
+</script>-->
+
+
+

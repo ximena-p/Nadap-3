@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #de6161; 
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  
+    background: linear-gradient(to right, #2657eb, #de6161); 
+}
+
+form{
+    position: absolute;
+    min-width: 280px;
+    max-width: 25%;
+    width: 25%;
+    
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-shadow: 0 1rem rgba(0, 0,0, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1rem);
+    border-radius: 5px;
+    color: white;
+}
+
+h1{ 
+    font-family:  'Roboto Condensed', sans-serif;
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid white ;
+    
+
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px 6px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+}
+
+
+
+.acuerdo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom:  15px;
+    font-size: 15px;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;    
+}
+
+
+h2{
+    font-family:'Roboto Condensed', sans-serif ;
+    position: relative;
+    font-size: 18px;
+    
+    padding-bottom: 7px;
+    border-bottom: 1px solid white ;
+}
+
+.inicial{
+    position: relative;
+    right: 90px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.iniciar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 140, 18);
+    width: 135px;
+    height: 30px;
+    border-radius: 8px;
+    left:170px;
+    position: relative;
+    color: white;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}

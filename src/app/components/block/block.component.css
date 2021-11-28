@@ -1,0 +1,34 @@
+.inicial{
+    position: relative;
+    margin-bottom:  40px;
+}
+.boton{
+    display: flex;
+    background-color: var(--color-orange);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    left: 100px;
+    color: white;
+}
+.iniciar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-orange);
+    width: 135px;
+    height: 30px;
+    border-radius: 8px;
+    right: -123px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+}
+h3{
+    z-index: 2;
+    position: absolute;
+}

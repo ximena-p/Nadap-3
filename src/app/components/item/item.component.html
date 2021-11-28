@@ -1,0 +1,25 @@
+<div>
+    <div class="semestre">
+        <h4>Semestre: {{ item.semestre }} </h4>
+        <div #myBoton (click) = "toggleDisplay()" class="icon">
+            <img  src="./assets/images/angle-down-solid.svg" alt="">
+        </div>
+    </div>
+    <div #myLista class="content ">
+        <div>
+            <p>Nota 1: {{ item.nota1 }} </p>
+        </div>
+        <div>
+            <p>Nota 2: {{ item.nota2 }} </p>
+        </div>
+        <div>
+            <p>Nota 3: {{ item.nota3 }} </p>
+        </div>
+        <div>
+            <p>Nota 4: {{ item.nota4 }} </p>
+        </div>
+        <div>
+            <p>Nota 5: {{ item.nota5 }} </p>
+        </div>
+    </div>
+</div>

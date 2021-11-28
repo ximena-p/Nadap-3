@@ -1,0 +1,19 @@
+.semestre{
+    background-color: beige;
+    padding:10px 20px;
+    margin:10px 0;
+    width: 200px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.icon{
+    height: 15px;
+    width: 15px;
+}
+.content{
+    margin-left:50px;
+}
+.visible{
+    display: none;
+}

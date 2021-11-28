@@ -1,0 +1,30 @@
+
+<body>
+
+    <form [formGroup]="logingForm" (ngSubmit)="prueva()" action="">
+        
+        <!-- onLoging(logingForm.value) prueva() -->
+
+        <h1>Formulario de registro.</h1>
+        
+        <input type="text" placeholder="Ingrese su nombre" formControlName="name"> 
+        
+        <input type="text" placeholder="Ingrese su apellido" formControlName="apellido"> 
+        
+        <input type="email" placeholder="Ingrese su correo" formControlName="email"> 
+        
+        <input type="password" placeholder="Ingrese su contraseña" formControlName="password">
+
+        <h2>Ingrese la fecha de nacimiento.</h2>
+
+        <input type="date" formControlName="date" >
+        
+        <p class="acuerdo">Estoy de acuerdo con terminos y condiciones.</p> 
+        
+        <div class="inicial">
+            <div class="iniciar">
+                    <button type="submit">Registrar</button> 
+            </div>
+        </div>
+    </form>
+</body>

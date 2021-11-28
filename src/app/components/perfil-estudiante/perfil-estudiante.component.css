@@ -1,0 +1,91 @@
+body{
+    display: inline-flex;
+    font-family: var(--fonts-use);
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-attachment: fixed;
+    position:relative;
+    z-index: -2;
+    min-height: 500px;
+}
+
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(45deg, #52c4df,#ad55c1);
+    opacity: 0.5;
+    z-index: -1;
+}
+.nav-img{
+    height: 50px;
+    width: 50px;
+    margin-top: 40%;
+}
+
+nav{
+    background-color: #2AA1DD;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 100px;
+}
+.contenedor{
+    margin:10px 20px;
+    width: 100%;
+    flex-direction: row;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.datos-perfil{
+    flex-direction: column;
+    align-self: top;
+}
+
+.inicial{
+    position: relative;
+    margin-bottom:  10px;
+}
+.boton{
+    display: flex;
+    background-color: var(--color-orange);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    left: -100px;
+    color: white;
+}
+.iniciar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-orange);
+    width: 135px;
+    height: 30px;
+    border-radius: 8px;
+    right: -124px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+}
+h3{
+    z-index: 2;
+    position: absolute;
+}
+
+.icon-person{
+    margin: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}

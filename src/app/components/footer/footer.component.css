@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+footer {
+    color: #fff;
+    font-family:var(--fonts-use);
+    height: 170px;
+    width: 100%;
+    background-color: var(--color-orange);
+    display: inline-flex;
+    justify-content: space-evenly;
+    z-index: 1;
+
+}
+
+.footer{
+    padding-top: 50px;
+
+}
+
+.contactos {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 120px;
+    width: auto;
+    margin-top:20px;
+}
+
+p{
+    padding: 10px 30px;
+    margin-left:5px;
+}
+
+@media (max-width: 768px) {
+    img{
+        display:none;
+    }
+}

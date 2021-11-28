@@ -1,0 +1,106 @@
+.fondo{
+    font-family: var(--fonts-use);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.card{
+    flex-direction:column;
+    padding: 0;
+    margin-bottom: 25%;
+    margin-top: 5%;
+    height:225px;
+}
+
+.libros{
+    height: auto;
+    width: 400px;
+    border-radius:15px 15px 0px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(55, 65, 83);
+    border-radius:0px 0px 15px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-mini{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    z-index: 2;
+    position: absolute;
+    top: -30px;
+}
+
+.logo-peque{
+    height: 47px;
+    filter:invert(75%);
+}
+
+input{
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    outline: none;
+    text-align: center;
+}
+
+.logo-imput{
+    height: 20px;
+    width: 20px;
+}
+
+.name{
+    position: absolute;
+    z-index: 3;
+    bottom: 106px;
+    left: 90px;
+}
+.pass{
+    position: absolute;
+    z-index: 3;
+    bottom: 77px;
+    left: 90px;
+}
+
+.ingresar{
+    margin-top: 9px;
+    border: none;
+    background-color: grey;
+    color: #fff;
+    padding: 5px 50px 5px 50px;
+    border-radius: 5px;
+    transition:0.25s;
+}
+
+@media (max-width: 700px){
+    .libros{
+        height: auto;
+        width: 260px;
+    }
+
+    .logo-imput{
+        display: none;
+    }
+    
+    .formulario{
+        padding: 26px;
+    }
+}

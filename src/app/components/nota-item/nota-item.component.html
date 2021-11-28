@@ -1,0 +1,33 @@
+<div>
+    <div class="semestre">
+        <h4>{{ alumno.nombre }} </h4>
+        <div #myBoton  class="icon">
+            <img  src="./assets/images/angle-down-solid.svg" alt="">
+        </div>
+    </div>
+    <form #myLista [formGroup]="logingForm" class="content ">
+        <div>
+            <label for="">Nota 1</label>
+            <input type="text" formControlName="nota1">
+        </div>
+        <div>
+            <label for="">Nota 2</label>
+            <input type="text" formControlName="nota2">
+        </div>
+        <div>
+            <label for="">Nota 3</label>
+            <input type="text" formControlName="nota3">
+        </div>
+        <div>
+            <label for="">Nota 4</label>
+            <input type="text" formControlName="nota4">
+        </div>
+        <div>
+            <label for="">Nota 5</label>
+            <input type="text" formControlName="nota5">
+        </div>
+        <div>
+            <button>Actualizar</button>
+        </div>
+    </form>
+</div>
